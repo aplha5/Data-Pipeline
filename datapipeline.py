@@ -68,7 +68,7 @@ def store_data(data, db_name):
 
 def main():
     # Step 1: Data Ingestion
-    file_path = 'keerthi.csv'
+    file_path = 'test.csv'
     file_format = 'csv'
     data = ingest_data(file_path, file_format)
 
